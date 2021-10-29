@@ -10,9 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: SafeArea(
         child: Scaffold(
-          appBar: AppBar(
-
-          ),
+          appBar: AppBar(),
         ),
       ),
     );
