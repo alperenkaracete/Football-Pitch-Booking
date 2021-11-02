@@ -1,12 +1,10 @@
 import 'package:after_layout/after_layout.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
-import 'package:football_pitches_booking/home_page.dart';
-import 'package:football_pitches_booking/introduction_page.dart';
+import 'package:football_pitches_booking/screens/home_page.dart';
+import 'package:football_pitches_booking/screens/introduction_page.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
-
 
 class Splash extends StatefulWidget {
   const Splash({Key? key}) : super(key: key);
@@ -22,11 +20,11 @@ class SplashState extends State<Splash> with AfterLayoutMixin<Splash> {
 
     if (_seen) {
       Navigator.of(context).pushReplacement(
-           MaterialPageRoute(builder: (context) => const SplashScreen()));
+          MaterialPageRoute(builder: (context) => const SplashScreen()));
     } else {
       await prefs.setBool('seen', true);
       Navigator.of(context).pushReplacement(
-           MaterialPageRoute(builder: (context) => const OnBoardingPage()));
+          MaterialPageRoute(builder: (context) => const OnBoardingPage()));
     }
   }
 
@@ -58,4 +56,3 @@ class SplashScreen extends StatelessWidget {
     );
   }
 }
-
