@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "111168439173",
+    "project_id": "football-pitch-booking-severus",
+    "storage_bucket": "football-pitch-booking-severus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111168439173:android:60e9fe6851b54b6e2cbaec",
+        "android_client_info": {
+          "package_name": "com.theseverus.football_pitch_booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111168439173-7cprs0ugl2sr3hejd12srp9kdgivi1c6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theseverus.football_pitch_booking",
+            "certificate_hash": "6f530506532f4997f2434b068330d3ff3a34a3dc"
+          }
+        },
+        {
+          "client_id": "111168439173-a37ggsc87ocfqt21ii7qn5k9afln1jou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVZfI0iomdv1s4hgOwO-bu9HGfAihijqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111168439173-a37ggsc87ocfqt21ii7qn5k9afln1jou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -15,6 +15,10 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
+  animated_splash_screen: ^1.1.0
+  introduction_screen: ^2.1.0
+  after_layout: ^1.1.0
+  shared_preferences: ^2.0.8
 
 dev_dependencies:
   flutter_test:
@@ -28,8 +32,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
+
   assets:
-    - assets/
+    - assets/images/logo.png
+    - assets/images/
 
 
   # fonts:
